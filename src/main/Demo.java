@@ -43,7 +43,9 @@ public class Demo {
         System.out.println("Update completed");
         
         System.out.println("\n=== Test 6: seller delete ====");
-        sellerDao.deleteById(14);
+        sellerDao.deleteById(24);
+        sellerDao.deleteById(25);
+        sellerDao.deleteById(26);
         System.out.println("Delete complete");
     }
 }
